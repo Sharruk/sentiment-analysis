@@ -14,19 +14,15 @@ Built with **Python, Scikit-learn, and Streamlit**.
 ---
 
 ## 📂 Project Structure
-
 sentiment-analysis/
 │
-├── data/
-│   └── tweets.csv          # dataset from Kaggle
-├── notebooks/
-│   └── sentiment_analysis.ipynb
-├── models/
-│   └── model.pkl
-├── app.py                  # Streamlit app
-├── requirements.txt
-├── README.md
-└── report.pdf
+├── app.py # Streamlit web app
+├── data/ # Dataset files
+├── models/ # Saved ML models
+├── notebooks/ # Jupyter notebooks (EDA, training)
+├── report.pdf # Project report
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
 
 
 ---
@@ -49,3 +45,4 @@ pip install -r requirements.txt
 3. Run the Streamlit app:
 
 streamlit run app.py
+
