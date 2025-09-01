@@ -12,19 +12,16 @@ Built with **Python, Scikit-learn, and Streamlit**.
 - Dataset: Twitter US Airline Sentiment dataset.
 
 ---
-
-## 📂 Project Structure
+### 📂 Project Structure
+bash
 sentiment-analysis/
-│
-├── app.py # Streamlit web app
-├── data/ # Dataset files
-├── models/ # Saved ML models
-├── notebooks/ # Jupyter notebooks (EDA, training)
-├── report.pdf # Project report
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
-
-
+│── app.py              # Streamlit web app
+│── data/               # Dataset files
+│── models/             # Saved ML models
+│── notebooks/          # Jupyter notebooks (EDA, training)
+│── report.pdf          # Project report
+│── requirements.txt    # Dependencies
+│── README.md           # Project documentation
 ---
 
 ## ⚡ Installation & Usage
@@ -84,5 +81,6 @@ The confusion matrix below shows the distribution of predicted vs. actual classe
 - **Strengths:** Captures negative sentiments very accurately.  
 - **Weaknesses:** Neutral class needs improvement (possibly more data, advanced NLP models like BERT).  
 - **Next Steps:** Experiment with deep learning models (LSTMs, Transformers) to improve positive/neutral detection.  
+
 
 
