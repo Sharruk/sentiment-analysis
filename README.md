@@ -22,7 +22,7 @@ sentiment-analysis/
 ├── report.pdf             # Project report
 ├── requirements.txt       # Dependencies
 └── README.md              # Project documentation
-
+```
 ## ⚡ Installation & Usage
 
 1. Clone the repository:
@@ -80,6 +80,7 @@ The confusion matrix below shows the distribution of predicted vs. actual classe
 - **Strengths:** Captures negative sentiments very accurately.  
 - **Weaknesses:** Neutral class needs improvement (possibly more data, advanced NLP models like BERT).  
 - **Next Steps:** Experiment with deep learning models (LSTMs, Transformers) to improve positive/neutral detection.  
+
 
 
 
