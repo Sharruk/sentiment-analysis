@@ -38,15 +38,16 @@ sentiment-analysis/
 
 2. Create a virtual environment and install dependencies:
 
+```bash
 python3 -m venv venv
 source venv/bin/activate    # On Linux/Mac
 venv\Scripts\activate       # On Windows
 pip install -r requirements.txt
-
+```
 3. Run the Streamlit app:
-
+```bash
 streamlit run app.py
-
+```
 
 ## 📊 Model Performance
 
@@ -85,6 +86,7 @@ The confusion matrix below shows the distribution of predicted vs. actual classe
 - **Strengths:** Captures negative sentiments very accurately.  
 - **Weaknesses:** Neutral class needs improvement (possibly more data, advanced NLP models like BERT).  
 - **Next Steps:** Experiment with deep learning models (LSTMs, Transformers) to improve positive/neutral detection.  
+
 
 
 
